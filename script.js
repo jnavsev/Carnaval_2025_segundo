@@ -1,11 +1,56 @@
 document.addEventListener("DOMContentLoaded", function() {
     const phrases = [
-        "La vida es un carnaval",
-        "Más vale tarde que nunca",
-        "No hay mal que por bien no venga",
-        "A mal tiempo, buena cara",
-        "El que madruga, Dios lo ayuda",
-        "Lo único que te va a tocar, va a ser el urólogo las pelotas, más Tinder y menos rascas"
+        "Mas trabajar y menos rasca, PUTO PERRO!!!",
+        "CIPOTE",
+        "Tienes más excusas para no trabajar que dinero en la cuenta bancaria.",
+        "No te preocupes por el amor, preocúpate por tener saldo en la tarjeta."
+        "Tienes más excusas para no trabajar que dinero en la cuenta bancaria."
+        "Si el trabajo dignifica, tú sigues en la indignidad más absoluta."
+        "Eres tan pobre que hasta el WiFi del vecino te bloqueó por compasión."
+        "No eres vago, simplemente practicas el minimalismo laboral extremo."
+        "No tienes dinero ni para pedir deseos en una fuente."
+        "Eres el único que necesita pagar a plazos una hamburguesa del McDonald's."
+        "Si el ahorro fuera un deporte, tú serías el último clasificado."
+        "Con lo que ganas no te alcanza ni para un consejo financiero."
+        "Si la pobreza diera puntos de experiencia, ya serías nivel 100."
+        "Eres tan pobre que cuando pasas la tarjeta, el datáfono pide perdón."
+        "¿Plan de pensiones? Primero preocúpate por llegar a fin de mes."
+        "Te pasas la vida esperando una oportunidad… o que suba el salario mínimo."
+        "Si ahorrar es importante, tú eres la persona menos importante del mundo."
+        "Trabajas tanto que hasta los esclavos romanos te darían el pésame."
+        "Si el tiempo es dinero, tú llevas años en bancarrota."
+        "Tu sueldo es tan bajo que hasta las monedas de céntimo te miran con pena."
+        "Tus finanzas están tan en rojo que parecen la bandera de un país comunista."
+        "Si vendieras tu dignidad, seguirías sin poder pagar el alquiler."
+        "Eres tan malo con el dinero que hasta Monopoly te rechaza como jugador."
+        "Tu cuenta bancaria tiene más telarañas que un castillo abandonado."
+        "Si la pobreza fuera arte, tú serías una obra maestra."
+        "Tus deudas son tan grandes que hasta la NASA las monitorea."
+        "Si fueras más ahorrador, seguirías estando igual de en la ruina."
+        "Tu billetera está más vacía que tu bandeja de entrada de Tinder."
+        "Trabajas tanto que ni los burros te envidian."
+        "Si ganaras un euro por cada excusa para no trabajar, seguirías en la quiebra."
+        "Amas tanto la vida que prefieres no malgastarla trabajando."
+        "Eres tan pobre que cuando buscas trabajo, te piden que pagues por la entrevista."
+        "Si la vida fuera justa, ya habrías ganado la lotería... pero sigues aquí."
+        "No es que no trabajes, es que estás esperando la oportunidad de ser millonario sin esfuerzo."
+        "Cuando el cajero te dice 'Saldo insuficiente', ya es más educado que tu jefe."
+        "Si los impuestos fueran opcionales, seguirías sin tener dinero."
+        "Tu única inversión segura es en memes y café barato."
+        "Si la inflación sube, tu cartera baja... más rápido que tus expectativas de vida."
+        "El dinero va y viene, pero en tu caso solo se va."
+        "Tu sueldo es tan bajo que hasta los centavos te sienten como un préstamo."
+        "No gastas dinero porque nunca lo has tenido."
+        "Para ti, el concepto de 'sobrante de dinero' es pura ciencia ficción."
+        "Eres tan pobre que cuando pides limosna, te dan consejos financieros."
+        "Te quejas de la crisis, pero tu economía lleva en crisis desde que naciste."
+        "Tienes menos capital que un libro sin título."
+        "Si el dinero no da la felicidad, al menos da de comer... cosa que tú ya no puedes hacer."
+        "Eres tan vago que si te pagaran por no hacer nada, seguirías sin cobrar lo suficiente."
+        "Tu plan de retiro es esperar a que te mantengan."
+        "Si el dinero te evitara tanto como las mujeres, estarías más arruinado aún."
+        "Tus ahorros están en modo 'Modo Dios'… intangibles y fuera de tu alcance."
+        "El día que tengas dinero, la inflación habrá subido el doble."
     ];
     
     const randomIndex = Math.floor(Math.random() * phrases.length);
